@@ -1,12 +1,11 @@
 "use client";
 
-import Header from "@/components/header/header";
+import Header from "@/components/base/header/header";
 
 export default function Home() {
   const list = ["a", "b", "c"];
   const listClick = (item: string) => {
     if (item === "a") {
-      console.log("a");
     } else if (item === "b") {
       console.log("b");
     } else {
