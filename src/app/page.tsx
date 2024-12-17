@@ -1,4 +1,7 @@
 "use client";
+
+import Header from "@/components/header/header";
+
 export default function Home() {
   const list = ["a", "b", "c"];
   const listClick = (item: string) => {
@@ -13,7 +16,7 @@ export default function Home() {
 
   return (
     <div>
-      <h1>Home</h1>
+      <Header />
       <ul style={{ display: "flex", alignItems: "center" }}>
         {list.map((item) => (
           <li
