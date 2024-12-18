@@ -6,12 +6,12 @@ import { useRouter } from "next/navigation";
 export default function Home() {
   const router = useRouter();
   const handleNavigation = (path: string) => {
+    console.log(path);
     router.push(path);
   };
 
   return (
     <div>
-      <Header />
       <ul className="flex items-center space-x-4">
         <li
           onClick={() => handleNavigation("/InformationTechnology")}
