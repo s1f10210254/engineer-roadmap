@@ -13,11 +13,11 @@ export default function Home() {
       {/*Hello Section */}
       <section
         className="relative h-screen bg-cover bg-center"
-        style={{ backgroundImage: "url('/path-to-image.jpg')" }}
+        style={{ backgroundImage: "url('/web.jpg')" }}
       >
-        <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
+        <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
           <h1 className="text-5xl text-white font-bold drop-shadow-lg">
-            Welcome to My Page
+            The road to becoming a web engineer
           </h1>
         </div>
         <a
