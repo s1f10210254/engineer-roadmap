@@ -33,6 +33,7 @@ export default function Home() {
         id="list-section"
         className="min-h-screen flex flex-col items-center justify-center bg-gray-100"
       >
+        {/* <Header /> */}
         <h2 className="text-3xl font-bold mb-8">Select an Option</h2>
         <ul className="flex items-center space-x-4">
           <li
