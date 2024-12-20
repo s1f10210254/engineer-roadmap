@@ -40,9 +40,9 @@ export default function InformationTechnology() {
   return (
     <div>
       <Header />
-      <div className=" bg-gray-100  p-8  ">
+      <div className=" bg-orange-300  p-4  ">
         <h2 className="text-3xl font-bold mb-8">Pick UP</h2>
-        <div className="flex overflow-x-auto">
+        <div className="flex overflow-x-auto hidden-scrollbar">
           {object.map((item, index) => (
             <div className="flex-none " key={index}>
               <div className="p-4 bg-white hover:bg-gray-50  mr-4 ml-4 ">
@@ -55,17 +55,17 @@ export default function InformationTechnology() {
         </div>
       </div>
 
-      <div className="p-8" />
+      {/* <div className="p-8" /> */}
 
-      <div className=" p-2">
+      <div className=" pt-4 ">
         <h2 className="text-3xl font-bold mb-8 text-center ">
           WEB系企業に行くために
         </h2>
-        <div className="">
-          <div className="flex  overflow-x-auto">
+        <div className="bg-gray-100 p-4">
+          <div className="flex  overflow-x-auto hidden-scrollbar">
             {webSkillsTable.map((item, index) => (
               <React.Fragment key={index}>
-                <div className=" flex-none  bg-gray-50 shadow-md m-4 p-4 cursor-pointer">
+                <div className=" flex-none  bg-gray-50 shadow-md m-4 p-2 cursor-pointer">
                   <div className="text-center font-bold">{item.skill}</div>
                   <div className="h-12"></div>
                   <p>{item.description}</p>
