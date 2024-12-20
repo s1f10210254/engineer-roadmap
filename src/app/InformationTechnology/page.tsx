@@ -36,6 +36,7 @@ export default function InformationTechnology() {
           ))}
         </div>
       </div>
+      <div className="p-8 " />
     </div>
   );
 }
